@@ -14,10 +14,11 @@ body{
     display: flex;
     flex-direction: row;
     width: calc(50% - 20px); /* Define a largura para ocupar metade do espaço disponível (menos a margem entre as divs) */
-  margin: 10px 10px; /* Adiciona uma margem entre as divs */
+    margin: 10px 10px; /* Adiciona uma margem entre as divs */
     background-color: #f0f0f0; /* Define uma cor de fundo */
     border-radius: 32px;
-    box-shadow: 0 4px 8px rgba(190, 93, 93, 0.7);
+    box-shadow: 0 8px 16px rgba(190, 93, 93, 0.7);
+
 
 }
 
@@ -43,13 +44,13 @@ body{
     margin: 10px 0; /* Remova as margens padrão dos parágrafos */
     font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
     color: #333; /* Define a cor do texto */
-    text-align: jus;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 span {  
     font-size: 25px; /* Ajusta o tamanho da fonte para 20px */
     margin-left: 10px; /* Adiciona um preenchimento à esquerda para separar a estrela do texto */
-
-filter: drop-shadow(0 0 5px #000);
+    filter: drop-shadow(0 0 5px #000);
    
 }
