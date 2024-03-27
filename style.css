@@ -35,10 +35,9 @@ body{
 }
 
 .boxFilme img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
+
+    width: 200px; /* Aumenta o tamanho máximo da imagem para 35px */
+    height: auto; /* Mantém a proporção da imagem */
     transition: transform 0.3s ease;
     border-radius: 32px;
 }
